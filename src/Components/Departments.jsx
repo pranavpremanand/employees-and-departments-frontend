@@ -298,7 +298,7 @@ const Departments = () => {
                   value={newDept.name}
                   onChange={(e) => {
                     if(e.target.value.length<3){
-                      setNameErr("Enter employee name");
+                      setNameErr("Enter department name");
                     } else {
                       setNameErr(null);
                     }
